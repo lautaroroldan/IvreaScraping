@@ -1,7 +1,6 @@
 // Description: This file contains the code to create a server that will scrape the ivrea website and return the releases.
 const express = require('express');
 const { chromium } = require('playwright');
-import { release } from "os";
 import { getRealeases } from "../index.mjs";
 const app = express()
 
