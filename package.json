@@ -12,5 +12,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "playwright": "^1.43.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
   }
 }
